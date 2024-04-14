@@ -15,7 +15,7 @@ class Solution:
             else:
                 leftsmaller[i] = stack[-1] + 1
             stack.append(i)
-        # reused stack 
+        # clear stack to be reused 
         while stack:
             stack.pop()
         #Calculate Rightsamller index
