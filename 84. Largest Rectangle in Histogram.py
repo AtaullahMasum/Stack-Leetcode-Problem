@@ -26,6 +26,7 @@ class Solution:
                 rightsmaller[i] = n-1
             else:
                 rightsmaller[i] = stack[-1] - 1
+        # MaxArea replace here so reduce one more iteration
             stack.append(i)
         # Calculate MaxArea in the Histogram
         maxArea = 0
